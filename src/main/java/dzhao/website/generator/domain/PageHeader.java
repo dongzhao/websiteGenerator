@@ -4,9 +4,8 @@ import dzhao.website.generator.annotation.TemplateInfo;
 
 /**
  * Created with IntelliJ IDEA.
- * User: Home
+ * User: Dong Zhao
  * Date: 13/01/15
- * Time: 10:34 PM
  */
 @TemplateInfo(resourceFrom = "header.ftl")
 public class PageHeader implements PageEntity{

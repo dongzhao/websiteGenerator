@@ -12,4 +12,11 @@ public class PageSlideshow implements PageEntity{
      */
     private Map<String, String> slideImageInfo;
 
+    public Map<String, String> getSlideImageInfo() {
+        return slideImageInfo;
+    }
+
+    public void setSlideImageInfo(Map<String, String> slideImageInfo) {
+        this.slideImageInfo = slideImageInfo;
+    }
 }

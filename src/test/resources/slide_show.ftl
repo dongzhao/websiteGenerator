@@ -10,12 +10,12 @@
 
 <div id="slider" class="nivoSlider">
 <#list slideImageInfo?keys as key>
-  <img src="images/slider/${key}.html?src=/images/slider/&amp;w=950&amp;h=390&amp;zc=1" title="#${key}" />
+  <img src="images/slider/${key}.html?src=/images/slider/&amp;w=950&amp;h=390&amp;zc=1" title="#${slideImageInfo[key]}" />
 </#list>
 </div>
 
 <#list slideImageInfo?keys as key>
-<div id="${key}" class="nivo-html-caption">${slideImageInfo.get(key)}</div>
+<div id="${key}" class="nivo-html-caption">${slideImageInfo[key]}</div>
 </#list>
 
 </div><!-- Slider Wrapper End -->

@@ -2,7 +2,6 @@ package dzhao.website.generator;
 
 import dzhao.website.generator.annotation.TemplateInfo;
 import dzhao.website.generator.annotation.TemplateItemInfo;
-import dzhao.website.generator.domain.Page;
 import freemarker.cache.FileTemplateLoader;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
